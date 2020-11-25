@@ -9,13 +9,32 @@
     <link href="bootstrap.css" rel="stylesheet">
     <title>Legal Aspects</title>
 </head>
-
+<style>
+    .titleimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+    .padded-dropcap {
+  padding-left: 5px;
+  padding-right: 10px;
+  float: left;
+  position: relative;
+  top: -0.25em;
+  margin-bottom: -0.5em;
+  margin-left: -6px;
+  margin-right: 2px;
+  font-size: 100px;
+}
+ 
+</style>
 <body>
 <!--Navbar-->
 <header>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a style="color: #2E2E40" class="navbar-brand" href="../index.html"><ONLINE></a>
+            <a style="color: #2E2E40" class="navbar-brand" href="index.html"><ONLINE></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,19 +78,23 @@
                 <!--Bio-->
                 <div class="bio">
                     <div class="part1">
-                        <img style="border-radius: 50%; height: 35px; margin-right: 10px" src="../imgs/" alt="">
+                        <img style="border-radius: 50%; height: 35px; margin-right: 10px" src="imgs/" alt="">
                     </div>
                     <div class="part2">
                         <h4 style="font-size: 15px;  color: #F2B56B;">Emilia Ton</h4>
                         <p style="font-size: 13px; color: #F2B56B">Nov 25 2020</p>
-                        <img src="../imgs/vpn.jpg" alt="vpn" width="400" height="550">
                     </div>
                 </div>
             </div>
         </div>
         <div style="width:25%" class="p3"></div>
     </div>
-
+    <!--Title Image-->
+    <div class="container-fluid no-padding">
+		<div class="titleimg col-6" style="height: 600px;">
+            <img src="imgs/vpn.jpg" alt="vpn">
+        </div>
+	</div>
     <!--Content-->
     <div class="content">
         <div style="width:25%" class="p1"></div>
@@ -79,7 +102,7 @@
             <div class="contenttext">
                 <div class="part">
                     <h3>How does it work?</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum dui mi.
+                    <p><span class="padded-dropcap">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum dui mi.
                         Nam aliquam arcu faucibus neque euismod consectetur. Curabitur at sodales tortor,
                         a convallis risus. Praesent congue sem ut risus placerat rutrum. Nulla feugiat ac diam ac ornare.
                         Fusce tempor felis scelerisque gravida volutpat. Nullam nec eros sit amet mauris ullamcorper
@@ -98,14 +121,12 @@
             <div style="margin: auto; width: 50%">
                 <p style="font-family: 'Raleway', sans-serif; font-size: 13pt ">EMILIA TON</p>
                 <hr>
-                <p style="font-family: 'Raleway', sans-serif;font-size: 11pt">pt287@njit.edu</p>
             </div>
         </div>
         <div style="width: 50%" class="f2">
             <div style="margin: auto;width: 50%">
                 <p style="font-family: 'Raleway', sans-serif; font-size: 13pt ">RICHARD JEONG</p>
                 <hr>
-                <p style="font-family: 'Raleway', sans-serif;font-size: 11pt">ej84@njit.edu</p>
             </div>
         </div>
     </div>
